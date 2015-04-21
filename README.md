@@ -20,10 +20,10 @@ Design:
 
 
 The bar is originally stocked with the following items:
-- 750ml of vodka
-- 1.5L gin
-- 750ml tequila
-- 750ml whiskey
+1. 750ml of vodka
+2. 1.5L gin
+3. 750ml tequila
+4. 750ml whiskey
 - 750ml sweet vermouth
 - 750ml dry vermouth
 - 2L bloody mary mix
@@ -35,23 +35,23 @@ The bar is originally stocked with the following items:
 - 24 olives
 
 User can make the following drinks
-* Bloody Mary
-	- 2oz vodka
-	- 4oz bloody mary mix
-	- 1 celery stalk
-* Martini
-	- 2oz gin
-	- 1oz dry vermouth
-	- 1 olive
-* Margarita
-	- 2oz tequila
-	- 1oz orange juice
-	- 1oz agave nectar
-	- juice of 1 lime
-* Screwdriver
-	- 2oz vodka
-	- 4oz orange juice
-* Manhattan
-	- 2oz whiskey
-	- 1oz sweet vermouth
-	- 1 cherry
+1. Bloody Mary
+..* 2oz vodka
+..* 4oz bloody mary mix
+..* 1 celery stalk
+2. Martini
+..* 2oz gin
+..* 1oz dry vermouth
+..* 1 olive
+3. Margarita
+..* 2oz tequila
+..* 1oz orange juice
+..* 1oz agave nectar
+..* juice of 1 lime
+4. Screwdriver
+..* 2oz vodka
+..* 4oz orange juice
+5. Manhattan
+..* 2oz whiskey
+..* 1oz sweet vermouth
+..* 1 cherry
