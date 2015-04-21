@@ -24,15 +24,15 @@ The bar is originally stocked with the following items:
 2. 1.5L gin
 3. 750ml tequila
 4. 750ml whiskey
-- 750ml sweet vermouth
-- 750ml dry vermouth
-- 2L bloody mary mix
-- 24oz agave nectar
-- 48oz orange juice
-- 36 limes
-- 9 cherries
-- 16 celery stalks
-- 24 olives
+5. 750ml sweet vermouth
+6. 750ml dry vermouth
+7. 2L bloody mary mix
+8. 24oz agave nectar
+9. 48oz orange juice
+10. 36 limes
+11. 9 cherries
+12. 16 celery stalks
+13.	24 olives
 
 User can make the following drinks
 1. Bloody Mary
