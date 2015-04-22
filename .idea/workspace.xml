@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f853b780-8417-4d01-8266-9aa9f58d45d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/minus-active.png" afterPath="$PROJECT_DIR$/css/Assets/minus-active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/minus.png" afterPath="$PROJECT_DIR$/css/Assets/minus.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/plus-active.png" afterPath="$PROJECT_DIR$/css/Assets/plus-active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/plus.png" afterPath="$PROJECT_DIR$/css/Assets/plus.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/OFL.txt" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/OFL.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/SourceSansPro-Black.ttf" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/SourceSansPro-Black.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/SourceSansPro-BlackItalic.ttf" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/SourceSansPro-BlackItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/SourceSansPro-BoldItalic.ttf" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/SourceSansPro-BoldItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/SourceSansPro-ExtraLightItalic.ttf" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/SourceSansPro-ExtraLightItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/SourceSansPro-Italic.ttf" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/SourceSansPro-Italic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/SourceSansPro-Light.ttf" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/SourceSansPro-Light.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/SourceSansPro-LightItalic.ttf" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/SourceSansPro-LightItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/SourceSansPro-Semibold.ttf" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/SourceSansPro-Semibold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fonts/Source_Sans_Pro/SourceSansPro-SemiboldItalic.ttf" afterPath="$PROJECT_DIR$/css/Fonts/Source_Sans_Pro/SourceSansPro-SemiboldItalic.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PSD/Bartender_Test_Screens-01.psd" afterPath="$PROJECT_DIR$/css/PSD/Bartender_Test_Screens-01.psd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PSD/Bartender_Test_Screens-02.psd" afterPath="$PROJECT_DIR$/css/PSD/Bartender_Test_Screens-02.psd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PSD/Bartender_Test_Screens-03.psd" afterPath="$PROJECT_DIR$/css/PSD/Bartender_Test_Screens-03.psd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PSD/Bartender_Test_Screens-04.psd" afterPath="$PROJECT_DIR$/css/PSD/Bartender_Test_Screens-04.psd" />
-    </list>
+    <list default="true" id="f853b780-8417-4d01-8266-9aa9f58d45d7" name="Default" comment="" />
     <ignored path="BartenderInterface.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09724473">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.21880065">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -220,13 +195,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -275,8 +250,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09724473">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.21880065">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
