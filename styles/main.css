@@ -1,25 +1,23 @@
+/*==========  Still not bulletproof, because we don't have the (.eot) file  ==========*/
 @font-face {
     font-family: 'Source Sans Pro Extralight';
     src: local('☺'), url('../Fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf') format('truetype');
 }
-
 @font-face {
     font-family: 'Source Sans Pro Bold';
     src: local('☺'), url('../Fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf') format('truetype');
 }
-
 @font-face {
     font-family: 'Source Sans Pro Regular';
     src: local('☺'), url('../Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf') format('truetype');
 }
-
+/*==========  Mobile first method  ==========*/
 body{
     color: #C3A2DB;
     background-color: black;
     font-family: "Source Sans Pro Regular", sans-serif;
     text-align: center;
 }
-
 .clearfix:after {
     content: " ";
     visibility: hidden;
@@ -27,103 +25,109 @@ body{
     height: 0;
     clear: both;
 }
-
-/*==========  Mobile First Method  ==========*/
-
+header{
+    font-family: 'Source Sans Pro Extralight', sans-serif;
+    color: white;
+    font-size: 79px;
+}
+div.stockItem{
+    width: 300px;
+    border-bottom: 1px solid #dab8f2;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+}
+div.stockIngredientName {
+    float: left;
+}
+div.stockIngredientQuantity {
+    width: 56px;
+    float: right;
+}
+div.item {
+    box-sizing: border-box;
+    width: 300px;
+    margin: 16px auto;
+}
+div.itemName{
+    background-color: #231f25;
+    color: #dbb9f9;
+    text-align: left;
+    font-size: 24px;
+    padding: 15px 30px;
+}
+div.itemDetails{
+    background-color: #39393c;
+    padding-top: 24px;
+}
+div.itemIngredient div{
+    color: #807d89;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    text-align: left;
+    float: left;
+}
+div.itemIngredientQuantity {
+    width: 30px;
+}
+div.changeCounter{
+    padding: 15px 0;
+}
+img{
+    display: inline;
+    vertical-align: middle;
+}
+div.itemCount{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 15px;
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    font-family: "Source Sans Pro Bold";
+}
+button{
+    background-color: #9C5AB6;
+    border: 2px solid #9C5AB6;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 300px;
+}
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-    header{
-        font-family: 'Source Sans Pro Extralight', sans-serif;
-        font-size: 4em;
-        color: white;
-    }
-    div.stockItem{
-        width: 90%;
-        border-bottom: 1px solid #dab8f2;
+    #stockContainer{
+        max-width: 320px;
         margin: 0 auto;
-        font-size: 1.3em;
-        text-align: left;
     }
-    div.ingredientName {
-        width: 77%;
-        float: left;
-    }
-    div.ingredientQuantity {
-        width: 23%;
-        float: right;
-    }
-    div.item{
-        box-sizing: border-box;
-        width: 90%;
-        margin: 5% auto;
-    }
-    div.itemName{
-        background-color: #231f25;
-        color: #dbb9f9;
-        font-size: 1.5em;
-        padding: 5% 10%;
-        text-align: left;
-    }
-    div.itemDetails{
-        background-color: #39393c;
-        padding-top: 7%;
-    }
-
-    div.itemIngredient div{
-        color: #807d89;
-        padding-left: 5%;
-        padding-bottom: 5%;
-        text-align: left;
-        float: left;
-    }
-    div.itemIngredientQuantity {
-        width: 20%;
-    }
-    div.changeCounter{
-        padding: 5% 0;
-        width: 100%;
-    }
-    img{
-        display: inline;
-        vertical-align: middle;
-    }
-    div.itemCount{
-        width: 100px;
-        height: 100px;
-        line-height: 100px;
-        border-radius: 15px;
-        margin: 0 5px;
-        display: inline-block;
-        vertical-align: middle;
-        background-color: white;
-        color: black;
-        font-size: 2em;
-        font-family: "Source Sans Pro Bold";
-    }
-    button{
-        background-color: #9C5AB6;
-        border: 2px solid #9C5AB6;
-        border-radius: 5px;
-        color: white;
-        padding: 10px;
-        width: 90%;
-        font-size: 1.3em;
+    #itemContainer{
+        max-width: 320px;
+        margin: 0 auto;
     }
 }
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+    #stockContainer{
+        max-width: 768px;
+    }
+    div.stockItem{
+        margin: 0 20px;
+        float: left;
+    }
+    #itemContainer{
+        max-width: 768px;
+    }
+    div.item{
+        margin: 0 20px;
+        float: left;
+    }
 }
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
-}
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
 
 }

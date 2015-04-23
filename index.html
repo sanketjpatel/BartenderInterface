@@ -25,29 +25,31 @@
   <script type="text/javascript" src="scripts/angular.js"></script>
 </head>
 <body data-ng-controller="stockItemCtrl as sc">
-  <section id="barStock">
+  <section>
     <header>Bar Stock</header>
-    <div>
+    <div class="clearfix" id="stockContainer">
       <div class="stockItem clearfix" data-ng-repeat="stockIngredient in sc.stockIngredients">
-        <div class="ingredientName">{{stockIngredient.name}}</div>
-        <div class="ingredientQuantity"> <span style="color: white;">{{stockIngredient.quantity}}</span> <span style="font-size: 0.7em;">{{stockIngredient.unit | uppercase}}</span></div>
+        <div class="stockIngredientName">{{stockIngredient.name}}</div>
+        <div class="stockIngredientQuantity"> <span style="color: white;">{{stockIngredient.quantity}}</span> <span style="font-size: 0.7em;">{{stockIngredient.unit | uppercase}}</span></div>
       </div>
     </div>
   </section>
 
-  <section id="orders">
+  <section>
     <header>Orders</header>
-    <div class="item" ng-repeat="item in sc.items">
-      <div class="itemName">{{item.name}}</div>
-      <div class="itemDetails">
-        <div class="itemIngredient clearfix" ng-repeat="ingredient in item.ingredients">
-          <div class="itemIngredientQuantity">{{ingredient.quantity}} {{ingredient.unit}}</div>
-          <div class="itemIngredientName">{{ingredient.name}}</div>
-        </div>
-        <div class="changeCounter">
-          <img src="Assets/plus.png" class="plus">
-          <div class="itemCount">{{item.count}}</div>
-          <img src="Assets/minus.png" class="minus">
+    <div class="clearfix" id="itemContainer">
+      <div class="item" data-ng-repeat="item in sc.items">
+        <div class="itemName">{{item.name}}</div>
+        <div class="itemDetails">
+          <div class="itemIngredient clearfix" data-ng-repeat="ingredient in item.ingredients">
+            <div class="itemIngredientQuantity">{{ingredient.quantity}} {{ingredient.unit}}</div>
+            <div class="itemIngredientName">{{ingredient.name}}</div>
+          </div>
+          <div class="changeCounter">
+            <img src="Assets/plus.png">
+            <div class="itemCount">{{item.count}}</div>
+            <img src="Assets/minus.png">
+          </div>
         </div>
       </div>
     </div>
