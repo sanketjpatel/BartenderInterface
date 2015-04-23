@@ -9,7 +9,7 @@
 
     function StockItemController() {
         var sc = this;
-        sc.ingredients = [
+        sc.stockIngredients = [
             {
                 name: 'Vodka',
                 quantity: 750,
