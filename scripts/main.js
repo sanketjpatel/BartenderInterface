@@ -76,5 +76,112 @@
                 unit: ''
             }
         ];
+        sc.items = [
+            {
+                name: 'Bloody Mary',
+                ingredients: [
+                    {
+                        name: 'Vodka',
+                        quantity: 2,
+                        unit: 'oz'
+                    },
+                    {
+                        name: 'Bloody Mary Mix',
+                        quantity: 4,
+                        unit: 'oz'
+                    },
+                    {
+                        name: 'Celery Stalk',
+                        quantity: 1,
+                        unit: ''
+                    }
+                ],
+                count: 0
+            },
+            {
+                name: 'Martini',
+                ingredients: [
+                    {
+                        name: 'Gin',
+                        quantity: 2,
+                        unit: 'oz'
+                    },
+                    {
+                        name: 'Dry Vermouth',
+                        quantity: 1,
+                        unit: 'oz'
+                    },
+                    {
+                        name: 'Olive',
+                        quantity: 1,
+                        unit: ''
+                    }
+                ],
+                count: 0
+            },
+            {
+                name: 'Margarita',
+                ingredients: [
+                    {
+                        name: 'Tequila',
+                        quantity: 2,
+                        unit: 'oz'
+                    },
+                    {
+                        name: 'Orange Juice',
+                        quantity: 1,
+                        unit: 'oz'
+                    },
+                    {
+                        name: 'Agave Nectar',
+                        quantity: 1,
+                        unit: 'oz'
+                    },
+                    {
+                        name: 'Lime',
+                        quantity: 1,
+                        unit: ''
+                    }
+                ],
+                count: 0
+            },
+            {
+                name: 'Screwdriver',
+                ingredients: [
+                    {
+                        name: 'Vodka',
+                        quantity: 2,
+                        unit: 'oz'
+                    },
+                    {
+                        name: 'Orange Juice',
+                        quantity: 4,
+                        unit: 'oz'
+                    }
+                ],
+                count: 0
+            },
+            {
+                name: 'Manhattan',
+                ingredients: [
+                    {
+                        name: 'Whiskey',
+                        quantity: 2,
+                        unit: 'oz'
+                    },
+                    {
+                        name: 'Sweet Vermouth',
+                        quantity: 1,
+                        unit: 'oz'
+                    },
+                    {
+                        name: 'Cherry',
+                        quantity: 1,
+                        unit: ''
+                    }
+                ],
+                count: 0
+            }
+        ];
     }
 })();

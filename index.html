@@ -1,54 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html data-ng-app="barStockApp">
 <head lang="en">
-
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-
   <!-- Compatibility with IE -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
   <!-- Responsive Design -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <!-- Defining the charset in HTML5 -->
   <meta charset="UTF-8">
-
   <!-- A short summary of the complete page -->
-  <meta name="description" content="Interface for a Bartender. Displays bar stock and orders.">
-
-  <!-- Author of this page. me :) -->
-  <meta name="author" content="Sanket Patel">
-
+  <meta name="description" content="Interface for a Bartender, to display stock and place orders.">
   <!-- SEO -->
   <meta name="keywords" content="bartender, interface, bar, stock, orders, contents, drinks, place order">
-
+  <!-- Author of this page. me :) -->
+  <meta name="author" content="Sanket Patel">
   <!-- Title of this page -->
   <title>Bartender Interface</title>
-
   <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular.min.js"></script>
-
+  <!-- Scripts
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular.min.js"></script>-->
+  <script type="text/javascript" src="scripts/angular.js"></script>
 </head>
-<body>
-  <section id="barStock" ng-app="barStockApp">
+<body data-ng-controller="stockItemCtrl as sc">
+  <section id="barStock">
     <header>Bar Stock</header>
-    <div ng-controller="stockItemCtrl as sc">
-      <div class="stockItem clearfix" ng-repeat="ingredient in sc.ingredients">
-        <div class="ingredient">{{ingredient.name}}</div>
-        <div class="quantity">{{ingredient.quantity}} {{ingredient.unit | uppercase}}</div>
+    <div>
+      <div class="stockItem clearfix" data-ng-repeat="ingredient in sc.ingredients">
+        <div class="ingredientName">{{ingredient.name}}</div>
+        <div class="ingredientQuantity"> <span style="color: white;">{{ingredient.quantity}}</span> <span style="font-size: 0.7em;">{{ingredient.unit | uppercase}}</span></div>
       </div>
     </div>
   </section>
 
   <section id="orders">
     <header>Orders</header>
-    <!-- TODO: Custom directives for orders -->
-    <ul>
-
-    </ul>
+    <div class="item" ng-repeat="item in sc.items">
+      <div class="itemName">{{item.name}}</div>
+      <div class="itemDetails">
+        <div class="itemIngredient clearfix" ng-repeat="ingredient in item.ingredients">
+          <div class="itemIngredientQuantity">{{ingredient.quantity}} {{ingredient.unit}}</div>
+          <div class="itemIngredientName">{{ingredient.name}}</div>
+        </div>
+        <div class="changeCounter">
+          <img src="Assets/plus.png" class="plus">
+          <div class="itemCount">{{item.count}}</div>
+          <img src="Assets/minus.png" class="minus">
+        </div>
+      </div>
+    </div>
     <button type="submit">Place Order</button>
   </section>
 

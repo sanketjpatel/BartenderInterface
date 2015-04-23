@@ -13,14 +13,11 @@
     src: local('☺'), url('../Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf') format('truetype');
 }
 
-*{
-    color: white;
-    /*border: 1px dashed white;*/
-    font-family: "Source Sans Pro Regular", sans-serif;
-}
-
-body {
+body{
+    color: #C3A2DB;
     background-color: black;
+    font-family: "Source Sans Pro Regular", sans-serif;
+    text-align: center;
 }
 
 .clearfix:after {
@@ -31,34 +28,86 @@ body {
     clear: both;
 }
 
-/* Min-Width: Refers to everything greater than or equal to the amount given.
-Max-Width: Refers to everything less than or equal to the amount given. */
-
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
     header{
         font-family: 'Source Sans Pro Extralight', sans-serif;
-        font-size: 20px;
-        text-align: center;
+        font-size: 4em;
+        color: white;
     }
-    .stockItem{
-        width: 100%;
+    div.stockItem{
+        width: 90%;
+        border-bottom: 1px solid #dab8f2;
+        margin: 0 auto;
+        font-size: 1.3em;
+        text-align: left;
     }
-    .ingredient{
-        width: 60%;
+    div.ingredientName {
+        width: 77%;
         float: left;
     }
-    .quantity{
-        width: 30%;
+    div.ingredientQuantity {
+        width: 23%;
         float: right;
     }
+    div.item{
+        box-sizing: border-box;
+        width: 90%;
+        margin: 5% auto;
+    }
+    div.itemName{
+        background-color: #231f25;
+        color: #dbb9f9;
+        font-size: 1.5em;
+        padding: 5% 10%;
+        text-align: left;
+    }
+    div.itemDetails{
+        background-color: #39393c;
+        padding-top: 7%;
+    }
+
+    div.itemIngredient div{
+        color: #807d89;
+        padding-left: 5%;
+        padding-bottom: 5%;
+        text-align: left;
+        float: left;
+    }
+    div.itemIngredientQuantity {
+        width: 20%;
+    }
+    div.changeCounter{
+        padding: 5% 0;
+        width: 100%;
+    }
+    img{
+        display: inline;
+        vertical-align: middle;
+    }
+    div.itemCount{
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        border-radius: 15px;
+        margin: 0 5px;
+        display: inline-block;
+        vertical-align: middle;
+        background-color: white;
+        color: black;
+        font-size: 2em;
+        font-family: "Source Sans Pro Bold";
+    }
     button{
-        background-color: darkorchid;
-        border-radius: 3px;
-        padding: 5px;
-        margin: auto;
+        background-color: #9C5AB6;
+        border: 2px solid #9C5AB6;
+        border-radius: 5px;
+        color: white;
+        padding: 10px;
+        width: 90%;
+        font-size: 1.3em;
     }
 }
 /* Extra Small Devices, Phones */
