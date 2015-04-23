@@ -7,7 +7,7 @@
 * Users can decrease the number of each drink
 * When an ingredient runs out, all drinks that require the ingredient can no longer have their order count increased
 * When ingredients are made available(by decreasing a beverage count), all drinks that require it can once again have their order increased
-* When the user places an order, a summary should be displayed on a new screen that prins out the total of each drink and the total number of drinks
+* When the user places an order, a summary should be displayed on a new screen that prints out the total of each drink and the total number of drinks
 
 **Design:**
 

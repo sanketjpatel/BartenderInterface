@@ -9,6 +9,9 @@
   <!-- Compatibility with IE -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+  <!-- Responsive Design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Defining the charset in HTML5 -->
   <meta charset="UTF-8">
 
@@ -24,9 +27,6 @@
   <!-- Title of this page -->
   <title>Bartender Interface</title>
 
-  <!-- Open all links in this page relative to the following URL -->
-  <base target="_self" href="/">
-
   <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
 
@@ -34,13 +34,64 @@
 <body>
   <section id="barStock">
     <header>Bar Stock</header>
-    <!-- Custom directives for stock -->
+    <!-- TODO: Custom directives for stock -->
+    <div class="stockItem">
+      <div class="ingredient">Vodka</div>
+      <div class="quantity">750ML</div>
+    </div>
+    <div class="stockItem">
+      <div class="ingredient">Gin</div>
+      <div class="quantity">1.5L</div>
+    </div>
+    <div class="stockItem">
+      <div class="ingredient">Tequila</div>
+      <div class="quantity">750ml</div>
+    </div>
+    <div class="stockItem">
+      <div class="ingredient">Whiskey</div>
+      <div class="quantity">750ml</div>
+    </div>
+    <div class="stockItem">
+      <div class="ingredient">Sweet Vermouth</div>
+      <div class="quantity">750ml</div>
+    </div>
+    <div class="stockItem">
+      <div class="ingredient">Bloody Mary Mix</div>
+      <div class="quantity">2L</div>
+    </div>
+    <div class="stockItem">
+      <div class="ingredient">Agave Nectar</div>
+      <div class="quantity">24oz</div>
+    </div>
+    <div class="stockItem">
+      <div class="ingredient">Orange Juice</div>
+      <div class="quantity">48oz</div>
+    </div>
+    <div class="stockItem">
+      <div class="ingredient">Limes</div>
+      <div class="quantity">36</div>
+    </div>
+    <div class="stockItem">
+      <div class="ingredient">Cherries</div>
+      <div class="quantity">9</div>
+    </div>
+    <div class="stockItem">
+      <div class="ingredient">Celery Stalks</div>
+      <div class="quantity">16</div>
+    </div>
+    <div class="stockItem">
+      <div class="ingredient">Olives</div>
+      <div class="quantity">24</div>
+    </div>
   </section>
 
   <section id="orders">
     <header>Orders</header>
-    <!-- Custom directives for orders -->
-    <button>Place Order</button>
+    <!-- TODO: Custom directives for orders -->
+    <ul>
+
+    </ul>
+    <button type="submit">Place Order</button>
   </section>
 
   <!-- Scripts -->
