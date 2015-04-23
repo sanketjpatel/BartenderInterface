@@ -116,11 +116,11 @@ button{
         max-width: 768px;
     }
     div.stockItem{
-        margin: 0 20px;
+        margin: 0 5.47%;
         float: left;
     }
     #itemContainer{
-        max-width: 768px;
+        max-width: 1020px;
     }
     div.item{
         margin: 0 20px;
@@ -128,6 +128,19 @@ button{
     }
 }
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
+@media only screen and (min-width : 1020px) {
+    #stockContainer{
+        max-width: 768px;
+    }
+    div.stockItem{
+        margin: 0 5.47%;
+        float: left;
+    }
+    #itemContainer{
+        max-width: 1020px;
+    }
+    div.item{
+        margin: 0 20px;
+        float: left;
+    }
 }
