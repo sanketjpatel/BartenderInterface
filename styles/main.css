@@ -1,4 +1,4 @@
-/*==========  Still not bulletproof, because we don't have the (.eot) file  ==========*/
+/*==========  Not bulletproof, no (.eot) format  ==========*/
 @font-face {
     font-family: 'Source Sans Pro Extralight';
     src: local('☺'), url('../Fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf') format('truetype');
@@ -110,6 +110,23 @@ div.itemCount{
     color: black;
     font-size: 32px;
     font-family: "Source Sans Pro Bold";
+}
+.number{
+    display: inline-block;
+    color: white;
+}
+.finQty{
+    width: 56px;
+    text-align: center;
+}
+#summaryContainer{
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+}
+.unit{
+    font-size: 0.7em;
 }
 button{
     background-color: #9C5AB6;

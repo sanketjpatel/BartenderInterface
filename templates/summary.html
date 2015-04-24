@@ -1,11 +1,11 @@
 <section>
     <header>Summary</header>
     <div class="clearfix" id="summaryContainer">
-        <div data-ng-repeat="order in sc.orders">
-            <div class="number">{{order.count}}</div>
-            {{order.name}}
+        <div class="finItem" data-ng-repeat="order in sc.orders">
+            <div class="number finQty">{{order.count}}</div>
+            {{order.name | capitalize}}
         </div>
         <hr>
-        <p> {{sc.totalCount}} TOTAL </p>
+        <div class="number finQty">{{sc.totalCount}}</div> TOTAL </p>
     </div>
 </section>

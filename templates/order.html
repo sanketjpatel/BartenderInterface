@@ -3,7 +3,7 @@
 	<div class="clearfix" id="stockContainer">
 		<div class="stockItem clearfix" data-ng-repeat="stockIngredient in oc.stockIngredients">
 			<div class="stockIngredientName">{{stockIngredient.name | capitalize}}</div>
-			<div class="stockIngredientQuantity"> <span style="color: white;">{{stockIngredient.quantity}}</span> <span style="font-size: 0.7em;">{{stockIngredient.unit | uppercase}}</span></div>
+			<div class="stockIngredientQuantity"> <span class="number"">{{stockIngredient.quantity}}</span> <span class="unit"">{{stockIngredient.unit | uppercase}}</span></div>
 		</div>
 	</div>
 </section>
