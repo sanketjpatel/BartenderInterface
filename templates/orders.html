@@ -1,0 +1,10 @@
+<section>
+    <header>Summary</header>
+    <div class="clearfix" id="summaryContainer">
+        <div class="stockItem clearfix" data-ng-repeat="order in oc.orders">
+            {{order.count}} {{order.name}}
+        </div>
+        <hr>
+        {{oc.totalCount}} TOTAL
+    </div>
+</section>

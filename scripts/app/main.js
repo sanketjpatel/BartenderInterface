@@ -6,12 +6,12 @@
     function moduleConfig($routeProvider){
         $routeProvider
             .when('/stock', {
-                templateUrl: 'scripts/app/templates/barstock.html',
+                templateUrl: 'templates/barstock.html',
                 controller: 'stockItemCtrl',
                 controllerAs: 'sc'
             })
             .when('/orders', {
-                templateUrl: 'scripts/app/templates/orders.html',
+                templateUrl: 'templates/orders.html',
                 controller: 'OrderCtrl',
                 controllerAs: 'oc'
             })
