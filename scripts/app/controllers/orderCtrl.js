@@ -180,14 +180,19 @@
                 count: 0
             }
         ];
-        oc.goToSummary = function(){
-            $location.path('/summary');
-        };
         oc.increment = function($index){
             oc.items[$index].count += 1;
         };
         oc.decrement = function($index){
-            if (oc.items[$index].count > 0 ) oc.items[$index].count -= 1;
+            if (oc.items[$index].count > 0) oc.items[$index].count -= 1;
+        };
+        oc.goToSummary = function(){
+            var items = [];
+            for(var i=0; i<oc.items.length; i++) {
+                items.push({name: oc.items[i].name, count: oc.items[i].count});
+            }
+            items = JSON.stringify(items);
+            $location.path('/summary').search(items);
         };
     }
 })();

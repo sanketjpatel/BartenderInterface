@@ -2,32 +2,15 @@
  * Created by Sanket on 4/22/15.
  */
 (function(){
-    angular.module('barStockApp').controller('summaryCtrl', SummaryController);
+    angular.module('barStockApp').controller('summaryCtrl', [ '$routeParams', SummaryController]);
 
-    function SummaryController() {
+    function SummaryController($routeParams) {
         var sc = this;
-        sc.orders = [
-            {
-                name: 'bloody mary',
-                count: 0
-            },
-            {
-                name: 'martini',
-                count: 0
-            },
-            {
-                name: 'margarita',
-                count: 0
-            },
-            {
-                name: 'screwdriver',
-                count: 0
-            },
-            {
-                name: 'manhattan',
-                count: 0
-            }
-        ];      //TODO
-        sc.totalCount = 0;      //TODO
+        sc.orders = JSON.parse(Object.keys($routeParams)[0]);
+        sc.totalCount = (function(){
+            var counter=0;
+            for(var i=0; i<sc.orders.length; i++) counter += sc.orders[i].count;
+            return counter;
+        })();
     }
 })();
