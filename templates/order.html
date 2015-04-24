@@ -17,10 +17,10 @@
 					<div class="itemIngredientQuantity">{{ingredient.quantity}} {{ingredient.unit}}</div>
 					<div class="itemIngredientName">{{ingredient.name | capitalize}}</div>
 				</div>
-				<div class="changeCounter">
-					<div class="imgContainer" data-ng-click="oc.increment($index)"><img src="Assets/plus.png"></div>
+				<div class="changeCounter noselect">
+					<div class="imgContainer" data-ng-click="oc.increment($index)"><img src="Assets/plus.png" alt="Add"></div>
 					<div class="itemCount">{{item.count}}</div>
-					<div class="imgContainer" data-ng-click="oc.decrement($index)"><img src="Assets/minus.png"></div>
+					<div class="imgContainer" data-ng-click="oc.decrement($index)"><img src="Assets/minus.png" alt="Remove"></div>
 				</div>
 			</div>
 		</div>
