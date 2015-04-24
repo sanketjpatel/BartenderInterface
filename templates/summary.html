@@ -2,7 +2,8 @@
     <header>Summary</header>
     <div class="clearfix" id="summaryContainer">
         <div data-ng-repeat="order in sc.orders">
-            {{order.count}} {{order.name}}
+            <div class="number">{{order.count}}</div>
+            {{order.name}}
         </div>
         <hr>
         <p> {{sc.totalCount}} TOTAL </p>

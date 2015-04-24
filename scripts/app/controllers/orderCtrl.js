@@ -181,9 +181,11 @@
             }
         ];
         oc.increment = function($index){
+            //TODO Modify stock contents before adding
             oc.items[$index].count += 1;
         };
         oc.decrement = function($index){
+            //TODO Modify stock contents after removing
             if (oc.items[$index].count > 0) oc.items[$index].count -= 1;
         };
         oc.goToSummary = function(){
