@@ -183,5 +183,11 @@
         oc.goToSummary = function(){
             $location.path('/summary');
         };
+        oc.increment = function($index){
+            oc.items[$index].count += 1;
+        };
+        oc.decrement = function($index){
+            if (oc.items[$index].count > 0 ) oc.items[$index].count -= 1;
+        };
     }
 })();
