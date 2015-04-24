@@ -1,7 +1,7 @@
 <section>
     <header>Bar Stock</header>
     <div class="clearfix" id="stockContainer">
-        <div class="stockItem clearfix" data-ng-repeat="stockIngredient in sc.stockIngredients">
+        <div class="stockItem clearfix" data-ng-repeat="stockIngredient in oc.stockIngredients">
             <div class="stockIngredientName">{{stockIngredient.name | capitalize}}</div>
             <div class="stockIngredientQuantity"> <span style="color: white;">{{stockIngredient.quantity}}</span> <span style="font-size: 0.7em;">{{stockIngredient.unit | uppercase}}</span></div>
         </div>
@@ -10,7 +10,7 @@
 <section>
     <header>Orders</header>
     <div class="clearfix" id="itemContainer">
-        <div class="item" data-ng-repeat="item in sc.items">
+        <div class="item" data-ng-repeat="item in oc.items">
             <div class="itemName">{{item.name | capitalize}}</div>
             <div class="itemDetails">
                 <div class="itemIngredient clearfix" data-ng-repeat="ingredient in item.ingredients">
@@ -18,12 +18,12 @@
                     <div class="itemIngredientName">{{ingredient.name | capitalize}}</div>
                 </div>
                 <div class="changeCounter">
-                    <img src="Assets/plus.png">
+                    <div class="imgContainer"><img src="Assets/plus.png"></div>
                     <div class="itemCount">{{item.count}}</div>
-                    <img src="Assets/minus.png">
+                    <div class="imgContainer"><img src="Assets/minus.png"></div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<button type="submit">Place Order</button>
+<button type="submit" data-ng-click="oc.goToSummary()">Place Order</button>

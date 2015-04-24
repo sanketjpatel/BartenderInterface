@@ -29,6 +29,9 @@ body{
     height: 0;
     clear: both;
 }
+section{
+    margin-bottom: 50px;
+}
 header{
     font-family: 'Source Sans Pro Extralight', sans-serif;
     color: white;
@@ -77,9 +80,21 @@ div.itemIngredientQuantity {
 div.changeCounter{
     padding: 15px 0;
 }
-img{
-    display: inline;
+div.imgContainer {
+    display: inline-block;
+    height: 101px;
+    text-align:center; /* Align center inline elements */
+    font: 0/0 a;       /* Hide the characters like spaces */
+}
+div.imgContainer:before {
+    content: '';
+    display: inline-block;
     vertical-align: middle;
+    height: 100%;
+}
+div.imgContainer img {
+    vertical-align: middle;
+    display: inline-block;
 }
 div.itemCount{
     width: 100px;
@@ -87,6 +102,8 @@ div.itemCount{
     line-height: 100px;
     border-radius: 15px;
     margin: 0 5px;
+    position: relative;
+    top: 5px;
     display: inline-block;
     vertical-align: middle;
     background-color: white;

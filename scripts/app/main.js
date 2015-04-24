@@ -5,18 +5,18 @@
     angular.module('barStockApp', ['ngRoute']).config(['$routeProvider', moduleConfig]);
     function moduleConfig($routeProvider){
         $routeProvider
-            .when('/stock', {
-                templateUrl: 'templates/barstock.html',
-                controller: 'stockItemCtrl',
-                controllerAs: 'sc'
-            })
-            .when('/orders', {
-                templateUrl: 'templates/orders.html',
-                controller: 'OrderCtrl',
+            .when('/order', {
+                templateUrl: 'templates/order.html',
+                controller: 'orderCtrl',
                 controllerAs: 'oc'
             })
+            .when('/summary', {
+                templateUrl: 'templates/summary.html',
+                controller: 'summaryCtrl',
+                controllerAs: 'sc'
+            })
             .otherwise({
-                redirectTo: '/stock'
+                redirectTo: '/order'
             });
     }
 })();
