@@ -12,6 +12,10 @@
     src: local('☺'), url('../Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf') format('truetype');
 }
 /*==========  Mobile first method  ==========*/
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     color: #C3A2DB;
     background-color: black;
@@ -98,6 +102,7 @@ button{
     padding: 10px;
     font-size: 20px;
     width: 300px;
+    cursor: pointer;
 }
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
@@ -123,17 +128,17 @@ button{
         max-width: 1020px;
     }
     div.item{
-        margin: 0 20px;
+        margin: 20px;
         float: left;
     }
 }
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 1020px) {
     #stockContainer{
-        max-width: 768px;
+        max-width: 1020px;
     }
     div.stockItem{
-        margin: 0 5.47%;
+        margin: 0 20px;
         float: left;
     }
     #itemContainer{

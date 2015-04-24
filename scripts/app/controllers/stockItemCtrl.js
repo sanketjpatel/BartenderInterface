@@ -1,97 +1,94 @@
 /**
- * Created by sanket on 4/22/15.
+ * Created by Sanket on 4/22/15.
  */
 (function(){
-    angular.module('barStockApp', []);
-
-//attach your controller on this module
     angular.module('barStockApp').controller('stockItemCtrl', StockItemController);
 
     function StockItemController() {
         var sc = this;
         sc.stockIngredients = [
             {
-                name: 'Vodka',
+                name: 'vodka',
                 quantity: 750,
                 unit: 'ml'
             },
             {
-                name: 'Gin',
+                name: 'gin',
                 quantity: 1.5,
                 unit: 'l'
             },
             {
-                name: 'Tequila',
+                name: 'tequila',
                 quantity: 750,
                 unit: 'ml'
             },
             {
-                name: 'Whiskey',
+                name: 'whiskey',
                 quantity: 750,
                 unit: 'ml'
             },
             {
-                name: 'Sweet Vermouth',
+                name: 'sweet vermouth',
                 quantity: 750,
                 unit: 'ml'
             },
             {
-                name: 'Dry Vermouth',
+                name: 'dry vermouth',
                 quantity: 750,
                 unit: 'ml'
             },
             {
-                name: 'Bloody Mary Mix',
+                name: 'bloody mary mix',
                 quantity: 2,
                 unit: 'l'
             },
             {
-                name: 'Agave Nectar',
+                name: 'agave nectar',
                 quantity: 24,
                 unit: 'oz'
             },
             {
-                name: 'Orange Juice',
+                name: 'orange juice',
                 quantity: 48,
                 unit: 'oz'
             },
             {
-                name: 'Limes',
+                name: 'limes',
                 quantity: 36,
                 unit: ''
             },
             {
-                name: 'Cherries',
+                name: 'cherries',
                 quantity: 9,
                 unit: ''
             },
             {
-                name: 'Celery Stalks',
+                name: 'celery stalks',
                 quantity: 16,
                 unit: ''
             },
             {
-                name: 'Olives',
+                name: 'olives',
                 quantity: 24,
                 unit: ''
             }
         ];
         sc.items = [
             {
-                name: 'Bloody Mary',
+                name: 'bloody mary',
                 ingredients: [
                     {
-                        name: 'Vodka',
+                        name: 'vodka',
                         quantity: 2,
                         unit: 'oz'
                     },
                     {
-                        name: 'Bloody Mary Mix',
+                        name: 'bloody mary mix',
                         quantity: 4,
                         unit: 'oz'
                     },
                     {
-                        name: 'Celery Stalk',
+                        name: 'celery stalk',
                         quantity: 1,
                         unit: ''
                     }
@@ -99,20 +96,20 @@
                 count: 0
             },
             {
-                name: 'Martini',
+                name: 'martini',
                 ingredients: [
                     {
-                        name: 'Gin',
+                        name: 'gin',
                         quantity: 2,
                         unit: 'oz'
                     },
                     {
-                        name: 'Dry Vermouth',
+                        name: 'dry vermouth',
                         quantity: 1,
                         unit: 'oz'
                     },
                     {
-                        name: 'Olive',
+                        name: 'olive',
                         quantity: 1,
                         unit: ''
                     }
@@ -120,25 +117,25 @@
                 count: 0
             },
             {
-                name: 'Margarita',
+                name: 'margarita',
                 ingredients: [
                     {
-                        name: 'Tequila',
+                        name: 'tequila',
                         quantity: 2,
                         unit: 'oz'
                     },
                     {
-                        name: 'Orange Juice',
+                        name: 'orange juice',
                         quantity: 1,
                         unit: 'oz'
                     },
                     {
-                        name: 'Agave Nectar',
+                        name: 'agave nectar',
                         quantity: 1,
                         unit: 'oz'
                     },
                     {
-                        name: 'Lime',
+                        name: 'lime',
                         quantity: 1,
                         unit: ''
                     }
@@ -146,15 +143,15 @@
                 count: 0
             },
             {
-                name: 'Screwdriver',
+                name: 'screwdriver',
                 ingredients: [
                     {
-                        name: 'Vodka',
+                        name: 'vodka',
                         quantity: 2,
                         unit: 'oz'
                     },
                     {
-                        name: 'Orange Juice',
+                        name: 'orange juice',
                         quantity: 4,
                         unit: 'oz'
                     }
@@ -162,20 +159,20 @@
                 count: 0
             },
             {
-                name: 'Manhattan',
+                name: 'manhattan',
                 ingredients: [
                     {
-                        name: 'Whiskey',
+                        name: 'whiskey',
                         quantity: 2,
                         unit: 'oz'
                     },
                     {
-                        name: 'Sweet Vermouth',
+                        name: 'sweet vermouth',
                         quantity: 1,
                         unit: 'oz'
                     },
                     {
-                        name: 'Cherry',
+                        name: 'cherry',
                         quantity: 1,
                         unit: ''
                     }
